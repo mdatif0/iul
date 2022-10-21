@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 20%;
+}
+
+.middle {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.hostel{
+  padding-top: 400px;
+}
+.sport{
+  padding-top: 150px;
+}
+</style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+  <div class="topnav">
+    <a  href="index.html">Home</a>
+    <a href="frame.html" target="_blank">frame page</a>
+    
+    <a href="about.html">About</a>
+    <a href="portpolio.html" target="_blank">portfolio</a>
+  </div>
+
+<h2>Three Unequal Columns</h2>
+
+<div class="row">
+  <div class="column left" >
+   
+    <p>Some videos of University</p>
+    <iframe width="240" height="160" src="https://www.youtube.com/embed/vUZ5YfLqJHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>campus tour video</p>
+    <iframe width="260" height="315" src="https://www.youtube.com/embed/6RHp4XnE2SQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="column middle" >
+   
+    <p>Integral University infrastructure/Facilities</p>
+          <div class="row">
+             <div class="column left">
+                <h3>library</h3>
+                <h3 class="hostel">hostel</h3>
+                <h3 class="sport">sport complex</h3>
+             </div>
+             <div class="column middle">
+              <p>Integral University has central as well as departmental library. The central library has the collection of more than 0.1 million documents comprising of books, theses, journals, dissertations and CDs/DVDs in the fields of applied sciences, bio sciences, engineering, medical sciences, education, humanities, literature and management with a seating capacity of 600 readers. The library collection includes 99255 volumes. The library also has the subscription of 300 printed and 7010 online journals with 2731 eBooks, 47000 articles, 3700 full text articles and 5875 indexed articles through online databases like Oxford university press, Cambridge university press. The library is fully automated by automated software KOHA.</p>
+              <p>Integral University has 3 hostels for boys and 2 hostels for girls. The facilities provided in the hostels are common room equipped with indoor game facilities, playground and courts for outdoor games like badminton, volleyball, cricket, skating, lawn tennis, basketball, etc., gymnasium, 24 Hrs. wi-fi, water purifier, parking, guest rooms, reading room.
+
+               <b>Boys Hostel</b> Number of beds - 1100|Single Occupancy|In-Campus Hostel,<b> Girls Hostel</b>Number of beds - 1400|Single Occupancy|In-Campus Hostel</p>
+               <p>Available Facilities: Badminton Court|Cricket Ground|Football Ground|Hockey Ground|Volleyball Court|Table Tennis|Lawn Tennis</p>
+             </div>
+            </div>   
+            
+  </div>
+  <div class="column right" >
+    
+    <p>Some videos of University</p>
+    <iframe width="240" height="160" src="https://www.youtube.com/embed/vUZ5YfLqJHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>campus tour video</p>
+    <iframe width="260" height="315" src="https://www.youtube.com/embed/6RHp4XnE2SQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+   
+
+
+
+
+
+<!-- <footer>
+  <span>Created By <a href="https://mdatif.000webhostapp.com/">Md.Atif</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+</footer> -->
+</body>
+</html>
